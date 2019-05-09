@@ -1,4 +1,4 @@
-tools/
+templates/
 container.conf
 README.md
 Makefile

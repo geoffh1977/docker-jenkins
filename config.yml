@@ -1,0 +1,20 @@
+---
+# Project Variables
+dockerUser: geoffh1977
+dockerUserEmail: geoffh1977@gmail.com
+license: gnu-gpl-v3.0
+
+# Source Build Variables
+buildImageName: openjdk8
+buildImageVersion: latest
+
+# Final Image Variables
+finalImageName: jenkins
+finalImageVersion: 2.164.2
+
+# Jenkins Config
+appName: Jenkins
+jenkinsSha256: c851b603e3d320295eed671fde7c661209645c818da9b7564caee8371e52bede
+jenkinsHttpPort: 8080
+jenkinsAgentPort: 50000
+jenkinsHome: /data
